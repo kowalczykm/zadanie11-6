@@ -7,7 +7,7 @@ $(function() {
     }
     return str;
 	}
-
+$('.column').css('width', (100 / $('.column').length) + '%');
 	function Column(name) {
     var self = this; // useful for nested functions
 
